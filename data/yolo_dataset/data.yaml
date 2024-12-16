@@ -1,0 +1,33 @@
+names:
+- brain
+- yolk
+- somitic muscle
+- notochord
+- swim bladder
+- lens
+- retinal ganglion cell layer
+- optic nerve head
+- retinal inner plexiform layer
+- retinal nuclear layers
+- retinal photoreceptor layer
+- retinal pigmented epithelium
+- olfactory pit
+- optic chiasm
+- splanchnocranium
+- chondrocranium
+- heart
+- eye
+- intestine
+- naris
+- spinal cord
+- inner ear
+- cornea
+- esophagus
+- ventricle
+- atrium
+- otolith
+- pronephric duct
+nc: 28
+test: ../test/images
+train: train/images
+val: train/images
