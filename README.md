@@ -50,6 +50,6 @@ Base: https://github.com/ultralytics/assets/releases/download/v8.2.0/sam2_b.pt
 
 Large: https://github.com/ultralytics/assets/releases/download/v8.2.0/sam2_l.pt
 
-Make sure to download all the SAM models in the working directory (src/imageannotator/). Where main.py is located.
+Make sure to download all the SAM models in the working directory (src/image_annotator/). Where main.py is located.
 
 
