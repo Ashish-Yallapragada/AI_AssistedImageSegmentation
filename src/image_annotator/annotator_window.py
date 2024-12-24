@@ -500,7 +500,7 @@ class ImageAnnotator(QMainWindow):
                                      f"Are you sure you want to delete the class '{class_name}'?",
                                      QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         if reply == QMessageBox.Yes:
-            self.delete_class(class_name)  # Sreeni note: Implement this method to handle class deletion
+            self.delete_class(class_name)  
         
     def check_missing_images(self):
         missing_images = [img['file_name'] for img in self.all_images if img['file_name'] not in self.image_paths or not os.path.exists(self.image_paths[img['file_name']])]
