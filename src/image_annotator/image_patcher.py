@@ -55,7 +55,7 @@ class PatchingThread(QThread):
         self.input_files = input_files
         self.output_dir = output_dir
         self.patch_size = patch_size
-        self.overlap = overlap  # Changed to tuple (to handle overlap_x, overlap_y independently) - Sreeni
+        self.overlap = overlap 
         self.dimensions = dimensions
 
     def run(self):
